@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "build": "react-scripts build",
+    "build": "npm start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
